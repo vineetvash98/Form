@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Question 12</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <ul>
+        <li><a class="mar" href="#news">Quick Help</a></li>
+        <li><a href="#home">Home</a></li>
+        <li style="float:left"><a class="active" href="#about">TO THE NEW</a></li>
+    </ul>
+    <hr style="color: grey; margin-top: 5px; ">
+
+    <div class="Box_Modal">
+        <div class="top_head">
+            <h2>Bug report</h2>
+        </div>
+
+        <form>
+            <label for="title">Title: * </label> <br/>
+            <textarea class="marginbot" rows="1" cols="50" name="description"> </textarea> <br/>
+            <label for="Description">Description: </label>
+            <textarea class="marginbot" rows="5" cols="50" name="description"> </textarea>
+            <label for="title">Operating System: </label> <br/>
+            <select class="marginbot" name="dropdown" style="width:340px; background-color: #20B2AA;">
+                <option value = " Windows" selected>Windows Xp</option>
+                <option value = " Windows" selected>Windows 7</option>
+                <option value = " Windows" selected>Windows 10</option>
+                <option value = "Mac ">Mac</option>
+                <option value = "Linux ">Linux</option>
+             </select> <br/>
+
+            <label for="title">Product: </label> <br/>
+            <select class="marginbot" name="dropdown" style="width:340px; background-color: #20B2AA;">
+                <option value = " Product" selected>Product 1</option>
+                <option value = " Product" selected>Product 2</option>
+                <option value = " Product" selected>Product 3</option>
+             </select>
+
+
+            <label for="title">Version: * </label> <br/>
+            <textarea class="marginbot" rows="1" cols="10" name="Version"> </textarea> <br/>
+
+            <label for="title">License: * </label> <br/>
+            <div class="marginbot">
+                <input type="radio" name="subject" value="Free"> Free
+                <input type="radio" name="subject" value="Business" style="margin-left: 50px;"> Business
+            </div>
+
+
+            <label for="title">Security: </label> <br/>
+            <select class="marginbot" name="dropdown" style="width:340px; background-color: #20B2AA;">
+                <option value = " Product" selected>Critical </option>
+                <option value = " Product" selected>Normal </option>
+             </select>
+
+            <label for="title">Attachments: </label> <br/>
+            <input class=" file marginbot " type="file" name="fileupload" accept="image/*" />
+
+        </form>
+
+        <div class="bottom_head ">
+            <Button> <p>Send</p></Button>
+        </div>
+    </div>
+
+</body>
+
+</html>
