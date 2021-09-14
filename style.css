@@ -18,7 +18,7 @@ li {
 
 li a {
     display: block;
-    color: #20B2AA;
+    color: #2cd3a7;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -59,7 +59,7 @@ h2 {
 }
 
 .bottom_head {
-    background-color: grey;
+    background-color: #a9a9a9;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     height: 50px;
